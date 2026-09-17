@@ -1,0 +1,26 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "run": "node src/server.js",
+    "format:fix": "prettier . --write",
+    "format:check": "prettier . --check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microbhuvan/pizza-auth-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microbhuvan/pizza-auth-service/issues"
+  },
+  "homepage": "https://github.com/microbhuvan/pizza-auth-service#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.9.7",
+    "typescript": "^7.0.2"
+  }
+}
