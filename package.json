@@ -2,6 +2,7 @@
   "name": "auth-service",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "run": "node src/server.js",
     "format:fix": "prettier . --write",
@@ -20,7 +21,11 @@
   "homepage": "https://github.com/microbhuvan/pizza-auth-service#readme",
   "description": "",
   "devDependencies": {
+    "@types/node": "^26.6.1",
     "prettier": "3.9.7",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.0"
   }
 }
