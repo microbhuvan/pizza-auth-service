@@ -9,7 +9,7 @@ export default {
   transform: {
     ...tsJestTransformCfg,
   },
-
+  verbose: true,
   extensionsToTreatAsEsm: [".ts"],
 
   moduleNameMapper: {
